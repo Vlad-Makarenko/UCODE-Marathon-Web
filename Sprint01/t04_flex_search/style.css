@@ -1,0 +1,26 @@
+form{
+    display: flexbox;
+    height: 2em;
+}
+
+h1{
+    text-align: center;
+}
+
+#input {
+    padding: 0 10px;
+    color: green;
+}
+
+#input:hover{
+    color: red;
+}
+
+#button{
+    padding: 0 10px;
+    color: green;
+}
+
+#button:hover{
+    color: red;
+}

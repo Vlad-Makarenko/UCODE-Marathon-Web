@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Settings</title>
+        <meta charset="utf-8">
+        <meta name="description" content="t05">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Settings</h1>
+        <div id="window">
+            <div id="main_part">
+                <div id="f1">
+                    <label for="typeface">Typeface</label><br><br>
+                    <select name="typeface" id="typeface">
+                        <option value="1" selected>Acunim Pro</option>
+                        <option value="2">Comic Sans</option>
+                        <option value="3" disabled>Times New Roman</option>
+                    </select>
+                </div>
+                <div id="f2">
+                    <br><br><label for="ui">Dark Ui</label>
+                    <input type="checkbox", id="dark">
+                </div>
+                <div id="s1">
+                    <br><br><label for="weight">Weight</label><br><br>
+                    <div class="weight_box" id="reg">
+                        <input type="checkbox" name="regular" id="regular">
+                        <label for="regular" class="reg">Regular</label>
+                    </div>
+                    <div class="weight_box" id="bold">
+                        <input type="checkbox" name="Bold" id="bold">
+                        <label for="bold" class="reg">Bold</label>
+                    </div>
+
+                </div>    
+                <div id="s2">
+                    <br><br><label for="color">Color</label><br><br>
+                    <input class="checkbox" type="checkbox" name="blue" id="blue">
+                    <label class="color_lable" for="blue"></label>
+                    <input class="checkbox" type="checkbox" name="green" id="green" checked>
+                    <label class="color_lable" for="green"></label>
+                    <input class="checkbox" type="checkbox" name="pink" id="pink">
+                    <label class="color_lable" for="pink"></label>
+                    <input class="checkbox" type="checkbox" name="yellow" id="yellow">
+                    <label class="color_lable" for="yellow"></label>
+                    <input class="checkbox" type="checkbox" name="orange" id="orange" checked>
+                    <label class="color_lable" for="orange"></label>
+                </div>
+                <div id="th1">
+                    <br><br><label for="size">Size</label><br><br>
+                    <input type="range" name="font-size" min="0" max="10" step="1" value="4">
+                    <br><div id="A_size">
+                        <span id="smallA">A</span>
+                        <span id="bigA">A</span>
+                    </div>
+                </div>
+                <div><span></span></div>
+            </div>
+           
+            <div id="images_part">
+                <img src="assets/images/artistic-brush.png" alt="bash">
+                <img src="assets/images/user-icon.png" alt="user">
+                <img src="assets/images/sms-speech-bubble.png" alt="sms">
+                <img src="assets/images/computer-screen.png" alt="screen">
+            </div>
+        </div>
+    </body>
+</html>

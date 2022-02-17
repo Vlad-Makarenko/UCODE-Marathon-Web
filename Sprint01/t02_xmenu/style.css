@@ -1,0 +1,91 @@
+form{
+    display: flex;
+    width: 100%;
+    font-family: Verdana;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#panel > h1{
+
+    font-family: Verdana;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    border-radius: 10px;
+}
+
+.menu{
+    padding: 10px;
+    font-weight: bold;
+    width: 10em;
+    background-color: rgba(128, 128, 128, 0.438);
+    color: black;
+    text-align: center;
+}
+
+
+.menu:hover{
+    background-color: orange;
+    color: white;
+}
+
+.menu_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.left_level_1{
+    display: none;
+}
+
+.menu_left:hover  .left_level_1{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_level_1{
+    display: none;
+}
+
+.menu_right:hover .right_level_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts{
+    display: flex;
+}
+
+#video{
+    display: flex;
+}
+
+#flevel_2{
+    display: none;
+    position: absolute;
+    margin-left: 180px;
+}
+
+#slevel_2{
+    display: none;
+    position: absolute;
+    margin-left: 180px;
+}
+
+#contacts:hover #flevel_2{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#video:hover #slevel_2{
+    display: inline-flex;
+    flex-direction: column;
+}

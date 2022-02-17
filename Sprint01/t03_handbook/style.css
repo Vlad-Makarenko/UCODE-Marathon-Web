@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(231, 205, 89);
+}
+
+#HTML_cont{
+    display: flex;
+}
+
+#CSS_cont{
+    display: flex;
+}
+
+#protocol_cont{
+    display: flex;
+}
+
+#html_txt{
+    text-align: center;
+}
+
+#handbook{
+    text-align: center;
+}
+#HTML_cont > h3{
+    text-align: center;
+}
+
+#background{
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.block{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    margin: 15px;
+    width: 25rem;
+}
+
+@media screen and (max-width: 320px) {
+
+    .block{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .block{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .block{
+        width: 35rem;
+    }
+    
+}
+

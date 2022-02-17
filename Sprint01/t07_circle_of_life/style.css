@@ -1,0 +1,20 @@
+
+#life_circle {
+    margin-top: 444px;
+    width: 111px;
+    height: 111px;
+    background-color: rgb(20, 119, 20);
+    border-radius: 50%;
+    transition: background-color ease-out 2.0s;
+    animation: 2.5s ease-in 0.1s infinite alternate moving;
+}
+
+@keyframes moving {
+    from {margin-left: 0;}
+    to {margin-left: 100%;}
+}
+
+#life_circle:hover {
+    background-color: rgb(255, 29, 29);
+}
+

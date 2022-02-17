@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Oscorp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="assets/images/apple.png" alt="logo">
+            </div>
+            <div id="header_menu_bar">
+                <span >About</span>
+                <span >Service</span>
+                <span >Contact</span>
+            </div>
+            <div id="phone">
+                <input type="search" placeholder="Search">
+                <span>Phone: +380777777777</span>
+            </div>
+        </header>
+        <div id="path">
+            <span>Home</span>
+            <span>/Catalog</span>
+        </div>
+        <div id="body">
+            <div>
+                <h2>Catalog</h2>
+                <div>
+                    <label class="catalog_chb">
+                        <input type="checkbox">
+                        <span>Orange</span>
+                    </label>
+                    <label class="catalog_chb">
+                        <input type="checkbox">
+                        <span>Banana</span>
+                    </label>
+                    <label class="catalog_chb">
+                        <input type="checkbox">
+                        <span>Nothing</span>
+                    </label>
+                </div>
+            </div>
+            <div id="main_body">
+                <div id="filters">
+                    <fieldset>
+                        <legend>Product condition</legend>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="options_chb" id="unlikely">
+                            <label for="fresh">fresh</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="options_chb" id="mild">
+                            <label for="spoiled">spoiled</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="options_chb" id="moderate">
+                            <label for="rotten">rotten</label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="options_chb" id="moderate">
+                            <label for="new">new</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Price</legend>
+                        <div class="slider-container">
+                            <input type="range" min="0" max="1000" step="100" value="400" class="slider">
+                            <div id="slider-captions">
+                                <span>0</span>
+                                <span>1000</span>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div id="main_content">
+                    <div class="card">
+                        <a href="card.html"><img src="assets/images/banana.png" alt="img"></a>
+                        <div>
+                            <a href="card.html">fresh banana</a>
+                            <span class="price">99.99$</span>
+                            <span class="not-available">not available</span>
+                            <input class="non-available" type="button" value="BUY">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="card.html"><img src="assets/images/orange.png" alt="img"></a>
+                        <div>
+                            <a href="card.html">new orange</a>
+                            <span class="price">99.50$</span>
+                            <span class="available">available</span>
+                            <input class="available" type="button" value="BUY">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="card.html"><img src="assets/images/orange.png" alt="img"></a>
+                        <div>
+                            <a href="card.html">rotten orange</a>
+                            <span class="price">99.00$</span>
+                            <span class="available">available</span>
+                            <input class="available" type="button" value="BUY">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="card.html"><img src="assets/images/banana.png" alt="img"></a>
+                        <div>
+                            <a href="card.html">spoiled banana</a>
+                            <span class="price">99.99$</span>
+                            <span class="not-available">not available</span>
+                            <input class="non-available" type="button" value="BUY">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer_menu_bar">
+                <span>Copyright © 2022 | OSCORP | All Rights Reserved</span>
+                <div>
+                    <a href="#">Terms of Service</a>
+                    <span>&nbsp;|&nbsp;</span>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

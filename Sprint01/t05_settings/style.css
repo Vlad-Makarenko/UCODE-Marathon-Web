@@ -1,0 +1,133 @@
+h1{
+    margin-left: 475px;
+}
+
+#window{
+    display: flex;
+    font-family: Verdana;
+    background-color: rgb(91, 92, 105);
+    margin: 15px;
+    width: 1050px;
+    height: 500px;
+    color: rgb(221, 211, 196);
+}
+
+div {
+    background-color: rgb(111, 114, 139);
+}
+
+
+
+#main_part{
+    display: grid;
+    grid-template-columns: repeat(2, 430px);
+    grid-auto-rows: 100px;
+    margin: 30px;
+    border: 2px solid rgb(187, 182, 182);
+    padding: 20px;
+
+}
+
+#images_part{
+    margin-top: 90px;
+    display: grid;
+    background-color: rgb(45, 50, 58);
+    padding: 15px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-auto-rows: 200px; */
+    margin-left: -30px;
+    height: 300px;
+}
+
+#bigA{
+    margin-left: 100px;
+    font-size: 22px;
+}
+
+#smallA{
+    font-size: 12px;
+}
+
+select {
+    color: rgb(231, 226, 226);
+    background-color: rgb(61, 69, 77);
+    border: 1px solid rgb(177, 176, 176);
+    margin-top: 5px;
+    padding: 5px;
+    width: 300px;
+}
+
+
+
+.reg{
+    margin-left: 15px;
+}
+
+.weight_box {
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    vertical-align: top;
+    background-color: rgb(61, 69, 77);
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+}
+
+.weight_box::after {
+    content: "";
+    display: flex; 
+    position: absolute;
+    color: rgb(94, 201, 165);
+    left: 4px;
+    top: 1px;
+} 
+
+
+
+
+
+#dark {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 155px;
+    vertical-align: top;
+    background-color: rgb(62, 69, 77);
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;;
+}
+
+#dark::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(98, 204, 169);
+    border-radius: 50%;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+#dark:checked {
+    background-color: rgb(98, 144, 228);
+    transition: background-color 0.3s ease;
+}
+#dark:checked::after {
+    transform: translateX(calc(100% - 1.5px));
+    transition: transform 0.3s ease;
+}
