@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+img{
+    border-radius: 30px;
+}
+
+#ftd{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.322);
+}
+
+#soul{
+    background-color: orange;
+}
+
+#time{
+    background-color: green;
+}
+
+#space{
+    background-color: rgb(99, 99, 204);
+}
+
+#mind{
+    background-color: yellow;
+}
+
+#reality{
+    background-color: red;
+}
+
+#power{
+    background-color: rgb(102, 57, 102);
+}
+

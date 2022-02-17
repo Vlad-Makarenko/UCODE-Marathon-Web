@@ -1,0 +1,54 @@
+table {
+    border: 4px solid black;
+    background: linear-gradient(to right,#6e0000, antiquewhite);
+    border-spacing: 0px;
+}
+
+thead {
+    background-color: rgba(110, 0, 0, 0.4);
+    color: #ffe369;
+    border: 2px, solid rgba(189, 195, 199, 0.05);
+}
+
+
+thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(143,148,251, 0.1);
+}
+
+tbody th {
+    color: white;
+    padding: 5px 50px;
+    border: 2px, rgba(189, 195, 199, 0.05);
+    
+}
+
+
+tbody td{
+    text-align: center;
+    color: midnightblue;
+    padding: 5px 50px;
+    background: antiquewhite;
+    border: 2px, solid rgba(189, 195, 199, 0.05);
+
+}
+
+
+tfoot th{
+    padding: 10px;
+}
+
+a{
+    width: bold;
+    color: white;
+}
+
+
+.DrakMode{
+    color: white;
+    background-color: darkred;
+}

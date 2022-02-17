@@ -1,0 +1,35 @@
+
+.box{
+
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.493);
+    width: calc(100% - 200px);
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box::before{
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -25px;
+    right: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: calc(100% + 50px);
+
+}
+
+.box::after {
+    position: absolute;
+    content: "";
+    top: -25px;
+    right: -1px;
+    bottom: 25px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 100%;
+    height: calc(100% + 50px);
+}

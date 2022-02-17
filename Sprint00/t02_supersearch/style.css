@@ -1,0 +1,23 @@
+form{
+    display: grid;
+    grid-template-columns: 1fr 4em;
+    height: 2em;
+}
+
+#input {
+    padding: 0 10px;
+    color: green;
+}
+
+#input:hover{
+    color: red;
+}
+
+#button{
+    padding: 0 10px;
+    color: green;
+}
+
+#button:hover{
+    color: red;
+}
