@@ -1,0 +1,18 @@
+
+
+div{
+  display: flex;
+  position: relative;
+  margin: auto;
+}
+
+
+button{
+  border-radius: 10%;
+  background: linear-gradient(black, orange, black );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  width: 50px;
+}

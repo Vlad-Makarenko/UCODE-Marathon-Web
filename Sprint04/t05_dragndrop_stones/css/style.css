@@ -1,0 +1,43 @@
+
+h1{
+    text-align: center;
+}
+
+#green {
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#red {
+    background-color: red;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.stone {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    /* background-color: green; */
+    transform: rotate(45deg);
+}
+.off {
+    width: 64px;
+    height: 64px;
+    border: black dotted 3px;
+}
