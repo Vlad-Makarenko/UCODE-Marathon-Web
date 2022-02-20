@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#main_page {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(black, red, black);
+    border-radius: 20%;
+}
+#main_page div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#main_page img {
+    height: 400px;
+    width: 400px;
+}
+#calories-text {
+    position: absolute;
+    top: 20px;
+    right: 170px;
+}
+#calories {
+    position: absolute;
+    top: 40px;
+    right: 170px;
+}
+#message {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+#buttons {
+    margin-top: 20px;
+}
+#buttons input {
+    margin-bottom: 10px;
+    width: 150px;
+    margin-left: 125px;
+}
