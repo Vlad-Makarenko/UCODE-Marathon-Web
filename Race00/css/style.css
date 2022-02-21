@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background: linear-gradient(black, purple, orange);
+    font-family: 'Lato';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    margin-top: -40px;
+    /* font-size: 50px; */
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#container{
+    position: absolute;
+    width: 404px;
+    height: 544px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    margin: -350px 0 0 -250px;
+    background-color: #f89232;
+    border: 5px solid #980ef3;
+    border-radius: 20px;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #8243add0;
+    color: white;
+    border-radius: 10%;
+    margin: 3px;
+}
+
+#click{
+    width: 390px;
+    height: 30px;
+    background-color: rgb(48, 70, 26);
+}
+
+
+button:hover{
+    /* background-color: #cc86da94; */
+    background-color: rgb(74, 114, 47);
+
+}
+
+#Clear:hover {
+    background-color: rgb(255, 0, 85);
+
+}
+
+#equal:hover{
+    background-color: rgb(241, 219, 21);
+}
+
+#convertFieldset {
+    display: none;
+}
+
+fieldset {
+    border-radius: 20px;
+    background: whitesmoke;
+    border: 5px solid #a488b6;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(131, 126, 126);
+}
+
+#historyLable{
+    border: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    text-align: right;
+    font-size: 14px;
+    text-align: right; /* TODO: ? */
+}
+
+#answerInput {
+    border: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    text-align: right;
+    font-size: 18px;
+    color: black;
+}
+
+select {
+    margin: 0 auto;
+    width: 130px;
+    border-radius: 40em;
+    padding: 3px;
+    border: 1px solid rgb(196, 195, 195);
+}
+
+#convertFieldset{
+    margin-top: 10px;
+}
+
+#answerFieldset{
+    margin-bottom: 15px;
+}
+
+#To {
+    margin-left: 30px;
+}
+
+.numbers {
+    background-color: #8a6b8a;
+    /* background-color: #499626; */
+
+}
+
+#clear {
+    background-color: rgb(228, 76, 76);
+}
+
+#equal{
+    background-color: rgb(255, 176, 6);
+}

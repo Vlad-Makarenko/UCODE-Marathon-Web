@@ -1,0 +1,95 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1>BALBULATOR</h1>
+        <h2>Babusya Calculator</h2>
+        <div id="container">
+            <fieldset id="answerFieldset" autofocus>
+                <span>Result</span>
+                <input id="historyLable" type="text" disabled><br>
+                <input id="answerInput"  type="text" maxlength="35" disabled>
+            </fieldset>
+            <div id="firstRow">
+                <button class="NonNumber" id="MC" type="button" value="memClear" >MC</button>
+                <button class="NonNumber" id="MR" type="button" value="memRead">MR</button>
+                <button class="NonNumber" id="Mplus" type="button" value="memAdd">M+</button>
+                <button class="NonNumber" id="Mmin" type="button" value="memMinus">M-</button>
+                <button class="NonNumber" id="MS" type="button" value="memSave">MS</button>
+            </div>
+            <div id="secondRow">
+                <button class="NonNumber" id="Clear" type="button" value="clear">C</button>
+                <button class="NonNumber" id="proc" type="button" value="%">%</button>
+                <button class="NonNumber" id="Lscobka" type="button" value="(">(</button>
+                <button class="NonNumber" id="Rscobka" type="button" value=")">)</button>
+                <button class="NonNumber" id="plus" type="button" value="+">+</button>
+            </div>
+            <div id="thirdRow">
+                <button class="NonNumber" id="Pi" type="button" value="Pi">π</button><!--!!!!!!!!!PI!!!!!!!!-->
+                <button class="numbers" id="seven" type="button" value="7" >7</button>
+                <button class="numbers" id="eight" type="button" value="8">8</button>
+                <button class="numbers"  id="nine" type="button" value ="9">9</button>
+                <button class="NonNumber" id="minus" type="button" value="-">-</button>
+            </div>
+            <div id="fourthRow">
+                <button class="NonNumber" id="factorial" type="button" value="factorial">x!</button>
+                <button class="numbers" id="four" type="button" value="4">4</button>
+                <button class="numbers" id="five" type="button" value="5">5</button>
+                <button class="numbers" id="six" type="button" value="6">6</button>
+                <button class="NonNumber" id="division" type="button" value="/">÷</button>
+            </div>
+            <div id="fifthRow">
+                <button class="NonNumber" id="pow" type="button" value="pow">x<sup>2</sup></button>
+                <button class="numbers" id="one" type="button" value="1">1</button>
+                <button class="numbers" id="two" type="button" value="2">2</button>
+                <button class="numbers" id="three" type="button" value="3">3</button>
+                <button class="NonNumber" id="multipl" type="button" value="*">&#xD7;</button>
+            </div>
+            <div id="sixthRow">
+                <button class="NonNumber"id="root" type="button" value="root">√x</button>
+                <button class="NonNumber"id="sign" type="button" value="sign"><sup>+</sup>/<small>-</small></button>
+                <button class="numbers" id="zero" type="button" value="0">0</button>
+                <button id="dot" type="button" value=".">.</button>
+                <button id="equal" type="button" value="=">=</button>
+            </div>
+            <div id="navigation">
+                <button onclick="showConverter()" id="click">Show converter</button>
+            </div>
+            <fieldset id="convertFieldset" autofocus>
+                <label>Convertation:</label><br>
+                <label id="From" for="answerInput">From:</label>
+                <select id="select_from">                    
+                    <option disabled>Length</option>
+                    <option value="cm">cm</option>
+                    <option value="m">m</option>
+                    <option value="km" selected>km</option>
+                    <option value="" disabled>Weight</option>
+                    <option value="g">g</option>
+                    <option value="kg">kg</option>
+                    <option value="t">tonnes</option>
+                    <option value="" disabled>Area</option>
+                    <option value="scm">square cm</option>
+                    <option value="sm">square m</option>
+                    <option value="skm">square km</option></select>
+                <label id="To" for="answerInput">To:</label>
+                <select id="select_to">
+                    <option disabled>Length</option>
+                    <option value="cm">cm</option>
+                    <option value="m" selected>m</option>
+                    <option value="km">km</option>
+                    <option disabled>Weight</option>
+                    <option value="g" >g</option>
+                    <option value="kg" >kg</option>
+                    <option value="t">tonnes</option>
+                    <option disabled>Area</option>
+                    <option value="scm" >square cm</option>
+                    <option value="sm" >square m</option>
+                    <option value="skm" >square km</option>   </select>
+            </fieldset>
+        </div>
+        <script src="js/script.js" ></script>
+    </body>
+</html>
