@@ -1,4 +1,5 @@
 *.DS_Store
+test.js
 .vscode
 *.json
 node_modules

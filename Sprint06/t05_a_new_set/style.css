@@ -1,0 +1,19 @@
+#Fpost{
+    background-color: rgb(197, 194, 194);
+    width: 666px;
+    display: none;
+}
+
+#Post{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+#age{
+    width: 50px;
+}
+
+#form{
+    width: 666px;
+}

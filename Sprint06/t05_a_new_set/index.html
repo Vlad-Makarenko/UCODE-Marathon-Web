@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        
+        <h1>New Avanger application</h1>
+        <br>
+        <fieldset id="Fpost">
+            <div id="Post">
+                <h3>POST</h3>
+                Array<br> ( <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;[name] => <span></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;[mail] => <span></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;[age] => <span></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;[description] => <span></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;[photo] => <span></span><br>
+                )<br>
+        </fieldset>
+        <br>
+        <fieldset id="form">
+            <fieldset id="About">
+                <legend>About candidate</legend>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Tell your name" id="name">
+                <label for="mail">E-mail</label>
+                <input type="text" placeholder="Tell your e-mail" id="mail">
+                <label for="age">Age</label>
+                <input type="number" id="age"><br><br>
+                <label for="desc">About</label>
+                <textarea name="about" id="description" cols="70" rows="5" maxlength="500" placeholder="Tell about yourself, max 500 symbols"></textarea><br><br>
+                <label for="photo">Your photo: </label>
+                <input type="file" id="photo">
+            </fieldset><br>
+            <button value="claer" onclick="onClearClicked()">CLEAR</button>
+            <button value="send" onclick="onSendClicked()">SEND</button>
+        </fieldset>
+        <script src="script.js"></script>
+    </body>
+</html>
