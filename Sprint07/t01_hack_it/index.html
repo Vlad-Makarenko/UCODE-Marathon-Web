@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password</title>
+        <style>
+            #info {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Password</h1>
+        <p thjs:text="${info}" id="info">info</p>
+        <p>
+            <form action="/" method="post">
+                <span >Password not saved at session.</span><br>
+                <label for="">Password for saving to session </label>
+                <input type="text" name="password" placeholder="Password to session" required><br>
+                <label for="">Salt for saving to session </label>
+                <input type="text" name="salt" placeholder="Salt to session" required><br>
+                <input type="submit" name="action" id="save" value="Save">
+            </form>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Files</title>
+        <style>
+            .block{
+                display: none;
+            }
+            form {
+                border: 2px solid grey;
+                padding-left: 20px;
+                margin: 2px;
+                width: 666px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>File manager</h1>
+        <form action="/" method="post">
+            <p>
+                <h2>Create a file</h2>
+            </p>
+            <p>
+                <label for="">Filename</label>
+                <input required type="text" placeholder="Name of file" name="Filename">
+            </p>
+            <p>
+                <label for="">Content</label>
+                <textarea required name="Content" cols="60" rows="7"></textarea>
+            </p>
+            <p><input type="submit" name="action" value="Create file"></p>
+        </form>
+        <form>
+            <p>
+                <h2>Files:</h2>
+            </p>
+            <div id="fileListDiv" thjs:text="${list}" style="display: none"></div>
+            <p id="displayList" name="Flist">
+                
+            </p>
+        </form>
+        <form class="block" id="contentID"  method="post">
+            <p><h2>Selected file:</h2></p>
+            <p><h3 id="Sfile" thjs:text="${filename}"></h3></p>
+            <p>Content:</p>
+            <p thjs:text="${content}"></p>
+            <p><input type="submit" name="action" value="Delete file" ></p>
+        </form>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

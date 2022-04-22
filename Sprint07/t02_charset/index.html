@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Charset</title>
+        <style>
+            .block{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Charset</h1>
+        <form action="/" method="post">
+            <p>
+                <label for="">Change charset: </label>
+                <input type="text" placeholder="Input string" name="inputStr">
+            </p>
+            <p>
+                <label for="">Select charset or several charset</label>
+                <Select multiple name="SelectedCharset">
+                    <option selected name="utf-8">UTF-8</option>
+                    <option name="iso-8859-1">ISO-8859-1</option>
+                    <option name="windows-1252">Windows-1252</option>
+                </Select>
+                <input type="submit" name="action" value="Change charset">
+                <input type="submit" name="action" value="Clear">
+            </p>
+            <div class="block" id="inputStrDiv">
+                <label for="">Input string: </label>
+                <textarea class="textArea" name="inputStrTA" id="" cols="25" rows="3" thjs:text="${inputStr}" disabled></textarea>
+            </div><br>
+            <div class="block" id="utfStrDiv">
+                <label for="">UTF-8 </label>
+                <textarea class="textArea" name="UtfStrTA" id="" cols="25" rows="3" thjs:text="${utf}" disabled></textarea>
+            </div><br>
+            <div class="block" id="isoStrDiv">
+                <label for="">ISO-8859-1 </label>
+                <textarea class="textArea" name="IsoStrTA" id="" cols="25" rows="3" thjs:text="${iso}" disabled></textarea>
+            </div><br>
+            <div class="block" id="WinStrDiv">
+                <label for="">Windows-1252 </label>
+                <textarea class="textArea" name="WinStrTA" id="" cols="25" rows="3" thjs:text="${win}" disabled></textarea>
+            </div><br>
+        </form>
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color: yellow;
+}
+
+button{
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    margin-left: calc(50% - 60px);
+}
+
+h1 {
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+}
+
+.obj {
+    background-color: rgb(67, 65, 65);
+    border: 1px solid red;
+    margin: 5px;
+    padding: 10px;
+}
+
+.str {
+    background-color: rgb(45, 35, 2);
+    border: 1px solid rgb(220, 0, 0);
+    margin: 5px;
+    padding: 10px;
+}
+
+label{
+    color: rgb(0, 237, 237);
+}
+
+span {
+    color: rgb(4, 149, 4);
+}
+
+b{
+    margin: 3px;
+    color: white;
+}

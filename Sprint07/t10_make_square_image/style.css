@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+input{
+    margin: 4px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}

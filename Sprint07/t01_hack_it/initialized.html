@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password</title>
+        <style>
+            #info {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Password</h1>
+        <p thjs:text="${info}" id="info">info</p>
+        <p>
+            <form action="/" method="post">
+                <span >Password saved at session.</span><br>
+                <label for="">Hash is </label>
+                <span thjs:text="${hash}"></span><br>
+                <label for="">Try to guess: </label>
+                <input type="text" name="password" placeholder="Password to session">
+                <input type="submit" name="action" id="check" value="Check password"><br>
+                <input type="submit" name="action" id="clear" value="Clear">
+            </form>
+        </p>
+    </body>
+</html>

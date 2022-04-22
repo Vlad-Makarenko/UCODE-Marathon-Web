@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Session</title>
+        <meta name="description" content="t00. Session">
+        <style>
+            form{
+                border: 2px solid gray;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Session for new</h1>
+        <form action="" method="post">
+            <fieldset>
+                <legend>About the Superhero</legend>
+                <p><label for="smth">Real Name</label>
+                    <input name="Real_name" type="text" placeholder="Superhero real name"
+                        autofocus>
+                    <label for="smth">Superhero Name</label>
+                    <input name="Superhero_name" type="text" placeholder="Superhero alias">
+                    <label for="smth">Age</label>
+                    <input name="age" type="number" step="1" min="1" max="999"></p>
+                <p><label for="smth">About</label>
+                    <textarea name="info" id="smth1" cols="70" rows="5" maxlength="500"
+                        placeholder="Information about the superhero, max 500 symbols"></textarea>
+                </p>
+                <p>
+                    <label for="smth">Photo:</label>
+                    <input type="file" name="photo">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Power</legend>
+                <p>
+                    <input type="checkbox" name="Power" value="Telekinesis" >
+                    <label for="Telekinesis">Telekinesis</label>
+                    <input type="checkbox" name="Power" value="Super_speed">
+                    <label for="Super_speed">Super strength or speed</label>
+                    <input type="checkbox" name="Power" value="Shapeshfting">
+                    <label for="Shapeshfting">Shapeshfting</label>
+                    <input type="checkbox" name="Power" value="Flight">
+                    <label for="Flight">Flight</label>
+                    <input type="checkbox" name="Power" value="Elemental">
+                    <label for="Elemental">Elemental control</label>
+                    <input type="checkbox" name="Power" value="Other" checked>
+                    <label for="Other">Other</label>
+                </p>
+                <p>
+                    <label for="smth">Level of control:</label>
+                    <input type="range" name="level" id="smth" min="0" max="10" step="1" value="1">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Origin of Power</legend>
+                <p>
+                    <input type="radio" name="Origin_of_Power" value="Unknown">
+                    <label for="Unknown">Unknown</label>
+                    <input type="radio" name="Origin_of_Power" value="Freak">
+                    <label for="Freak">Freak lab accident</label>
+                    <input type="radio" name="Origin_of_Power" value="Chosen">
+                    <label for="Chosen">Chosen by an ancient wise being</label>
+                    <input type="radio" name="Origin_of_Power" value="Human">
+                    <label for="human">The superher is not human</label>
+                    <input type="radio" name="Origin_of_Power" value="Other" checked>
+                    <label for="Other1">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <input type="submit" name="action" value="CLEAR"></input> 
+            <input type="submit" name="action" value="SEND"></input> 
+            <!-- <button name="clear" >CLEAR</button>
+            <button name="send" >SEND</button> -->
+            <br><br>
+        </form>
+    </body>
+</html>

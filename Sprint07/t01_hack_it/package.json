@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-thymeleaf": "^0.3.0",
+    "thymeleaf": "^0.21.0",
+    "thymeleafjs": "^1.0.0"
+  },
+  "name": "t01_hack_it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
