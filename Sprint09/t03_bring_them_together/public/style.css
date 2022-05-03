@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+body {
+    background: #f12711; 
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+    font-family: 'Alatsi', sans-serif;
+}
+
+#helper{
+    font-size: 12px;
+}
+
+a{
+    color: rgb(195, 236, 248);
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    background: rgba(0, 255, 76, 0.3);
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    border: rgba(255, 255, 255, 0.5) solid 1px;
+    padding: 4px;
+    width: 100px;
+    margin-left: calc(50% - 80px);
+}
+
+#sub{
+    width: 102px;
+}
+
+#sub:focus{
+    width: 104px;
+}
+#logout{
+    margin-left: calc(50% - 50px);
+}
+
+button:hover{
+    background: rgba(0, 255, 76, 0.43);
+}
+
+button:focus {
+    width: 102px;
+    height: 28px;
+    margin-left: calc(50% - 81px);
+}
+
+
+form {
+    color: white;
+    padding: 15px;
+    width: 400px;
+    margin-left: calc(50% - 215px);
+    margin-top: 55px;
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 44px;
+}
+
+.success {
+    color: rgb(0, 255, 51);
+}
+
+.error {
+    color: rgb(255, 64, 0);
+}
+
+input{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    border: rgba(255, 255, 255, 0.5) solid 1px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 222px;
+}
+
+div{
+    align-items: center;
+    margin: 10px;
+    margin-left: calc(50% - 120px);
+}

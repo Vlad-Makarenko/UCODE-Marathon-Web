@@ -1,0 +1,9 @@
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    login VARCHAR(20) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(319) NOT NULL UNIQUE,
+    status ENUM('admin', 'user') NOT NULL DEFAULT 'admin'
+);
